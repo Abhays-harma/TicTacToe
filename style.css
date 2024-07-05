@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    font-size: xxx-large;
+}
+body{
+    background-color: #297373;
+    text-align: center;
+}
+main{
+    font-family: "Arsenal SC", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 72px;
+    background-color: white;
+    color: red;
+}
+.reset button{
+    padding: 16px;
+    font-size: x-large;
+    border-radius: 24px;
+    border: none;
+    font-weight: 100;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.msg-container{
+    background-color: black;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 24px;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.msg{
+    padding: 24px;
+    font-size: xx-large;
+}
